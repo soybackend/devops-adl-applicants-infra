@@ -1,1 +1,1 @@
-stack_id = "<stack>-<layer>-<environment>"
+stack_id = "adl-applicants-dev"
