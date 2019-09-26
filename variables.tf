@@ -7,3 +7,8 @@ variable "aws_region" {
   type        = string
   description = "The region where resources will be deployed"
 }
+
+variable "tempvar" {
+  type        = string
+  description = "tempdescription"
+}
