@@ -9,7 +9,7 @@ locals {
     stack       = "${local.stack}"
     layer       = "${local.layer}"
     environment = "${local.environment}"
-    purpose     = "test"
+    purpose     = "testApplicants"
     origin      = "terraform"
   }
 }
