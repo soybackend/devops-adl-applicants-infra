@@ -1,4 +1,4 @@
-output "account_id" {
-  value       = "${data.aws_caller_identity.this.account_id}"
+output "bucket_domain" {
+  value       = "${aws_s3_bucket.bucket.bucket_domain_name}"
   description = "The AWS Account ID number of the account that owns or contains the calling entity."
 }
