@@ -1,10 +1,9 @@
-# terraform {
-#   backend "remote" {
-#     hostname = "app.terraform.io"
-#     organization = "my-org"
-#     workspaces {
-#       name = "my-workspace"
-#     }
-#   }
-# }
+terraform {
+  backend "remote" {
+    organization = "adl-applicants"
 
+    workspaces {
+      name = "devops-adl-applicants-infra"
+    }
+  }
+}
