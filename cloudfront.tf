@@ -66,7 +66,7 @@ resource "aws_cloudfront_distribution" "cloudfront_distribution" {
   logging_config {
     bucket          = aws_s3_bucket.front.bucket_domain_name
     include_cookies = false
-    prefix          = var.subdomain
+    prefix          = var.stack_id
   }
 
   tags = local.common_tags

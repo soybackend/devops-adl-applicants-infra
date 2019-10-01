@@ -7,4 +7,3 @@ variable "aws_region" {
   type        = string
   description = "The region where resources will be deployed"
 }
-

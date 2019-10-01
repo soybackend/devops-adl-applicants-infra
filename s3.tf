@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "front" {
-  bucket = var.subdomain
+  bucket = var.stack_id
   acl    = "private"
 
   versioning {

@@ -5,5 +5,5 @@ output "bucket_domain" {
 
 output "s3_front_name" {
   description = "The S3 Bucket name of frontend."
-  value       = aws_s3_bucket.front_bkt.bucket
+  value       = aws_s3_bucket.front.bucket
 }
