@@ -6,4 +6,5 @@ terraform {
       name = "devops-adl-applicants-infra"
     }
   }
+  required_version = "~> 0.12.0"
 }
