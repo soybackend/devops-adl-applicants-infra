@@ -6,5 +6,5 @@ resource "aws_s3_bucket" "front" {
     enabled = true
   }
 
-  tags = var.tags
+  tags = local.common_tags
 }
