@@ -3,7 +3,7 @@ data "aws_caller_identity" "this" {}
 data "aws_iam_policy_document" "s3_policy_document_cloudfront" {
   statement {
     actions   = ["s3:GetObject"]
-    resources = ["${aws_s3_bucket.front_bkt.arn}/*"]
+    resources = ["${aws_s3_bucket.front.arn}/*"]
 
     principals {
       type        = "AWS"
@@ -13,7 +13,7 @@ data "aws_iam_policy_document" "s3_policy_document_cloudfront" {
 
   statement {
     actions   = ["s3:ListBucket"]
-    resources = ["${aws_s3_bucket.front_bkt.arn}"]
+    resources = ["${aws_s3_bucket.front.arn}"]
 
     principals {
       type        = "AWS"

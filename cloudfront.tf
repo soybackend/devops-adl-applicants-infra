@@ -26,7 +26,7 @@ resource "aws_cloudfront_distribution" "cloudfront_distribution" {
       value = "*"
     }
 
-    domain_name = aws_s3_bucket.front_bkt.bucket_domain_name
+    domain_name = aws_s3_bucket.front.bucket_domain_name
     origin_id   = "S3Origin"
 
     s3_origin_config {
