@@ -27,9 +27,15 @@ You will need the following things properly installed on your computer :D
 
 ## Test 1
 
+![](./images/design1.png)
+
 ## Test 2
 
+![](./images/design2.png)
+
 ## Test 3
+
+![](./images/design3.png)
 
 
 
