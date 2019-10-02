@@ -16,7 +16,9 @@ Dicha arquitectura es el requerimiento de un proyecto de ADL que siempre estará
 
 ## Reto 2 :rage1:
 
-* Se necesita cargar dicho sitio WEB desde una IP específica. Se necesita crear una regla de WAF y asociarle un WAF ACL a la distribución de Cloudfront para que se tenga este Whitelist. Su objetivo es crear este whitelist usando Terraform.
+* Los super DevSecOps! 💂 han solicitado que que por temas de seguridad el WAF asociado a la distribución Cloudfront permita el acceso solo desde una IP específica (IP del Laboratorio) y no desde todo internet `0.0.0.0/0` 
+  
+      Su objetivo es ajustar las reglas del WAF asociado al Cloudfront de tal forma que se permita el acceso solo desde la IP del laboratorio. 💂💂 🚓 
 
 ![](./images/design2.png)
 
