@@ -69,9 +69,9 @@ resource "aws_cloudfront_distribution" "cloudfront_distribution" {
     prefix          = var.stack_id
   }
 
-  tags = local.common_tags
-  # web_acl_id = "${var.web_acl_id}"  -- TO DO
-  enabled = true
+  tags       = local.common_tags
+  web_acl_id = "${aws_waf_web_acl.waf.id}"
+  enabled    = true
 }
 
 resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {

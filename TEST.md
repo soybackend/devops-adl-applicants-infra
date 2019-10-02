@@ -15,9 +15,9 @@ El objetivo es realizar lo debidamente necesario para que dichos archivos puedan
 ![](./images/design1.png)
 
 
-## Reto 2 :feelsgood:
+## Reto 2 :rage1:
 
-Se necesita cargar dicho sitio WEB desde una IP específica. Se necesita crear una regla de WAF y asociarle un WAF ACL a la distribución de Cloudfront para que se tenga este Whitelist. Su objetivo es crear este whitelist usando Terraform.
+* Se necesita cargar dicho sitio WEB desde una IP específica. Se necesita crear una regla de WAF y asociarle un WAF ACL a la distribución de Cloudfront para que se tenga este Whitelist. Su objetivo es crear este whitelist usando Terraform.
 
 ![](./images/design2.png)
 
