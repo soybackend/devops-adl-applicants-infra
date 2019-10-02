@@ -11,9 +11,6 @@
 - [devops-adl-applicants-aws-dev](#devops-adl-applicants-aws-dev)
   - [Table of Contents](#Table-of-Contents)
   - [Prerequisites](#Prerequisites)
-  - [Test 1](#Test-1)
-  - [Test 2](#Test-2)
-  - [Test 3](#Test-3)
   - [Inputs](#Inputs)
   - [Outputs](#Outputs)
   - [Further Reading / Useful Links](#Further-Reading--Useful-Links)
@@ -24,20 +21,6 @@ You will need the following things properly installed on your computer :D
 
 * [Git](http://git-scm.com/)
 * [Terraform](https://www.terraform.io/downloads.html)
-
-## Test 1
-
-![](./images/design1.png)
-
-## Test 2
-
-![](./images/design2.png)
-
-## Test 3
-
-![](./images/design3.png)
-
-
 
 ## Inputs
 
