@@ -2,7 +2,7 @@
 
 [![terraform](https://img.shields.io/badge/terraform-v0.12.X-5C4EE5.svg)](https://www.terraform.io)
 
->Terraform module responsible for the creation of resources related to SOME adl in PRO environment
+>Terraform module responsible for the creation of resources related to Technical Test for applicants.
 >
 >Developed with all :heart: in the world by ADL DevOps team
 
@@ -13,16 +13,14 @@
   - [Prerequisites](#Prerequisites)
   - [Inputs](#Inputs)
   - [Outputs](#Outputs)
-  - [Contributing](#Contributing)
   - [Further Reading / Useful Links](#Further-Reading--Useful-Links)
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following things properly installed on your computer :D
 
 * [Git](http://git-scm.com/)
 * [Terraform](https://www.terraform.io/downloads.html)
-
 
 ## Inputs
 
@@ -40,13 +38,6 @@ You will need the following things properly installed on your computer.
 | output_name               | All outputs declaration in the current terraform module |
 | iam\_policy\_dynamodb\_r  | The arn of the reading IAM policy                       |
 | iam\_policy\_dynamodb\_rw | The arn of the reading-writing IAM policy               |
-
-## Contributing
-
-If you find this repo useful here's how you can help:
-
-1. Send a Pull Request with your awesome new features and bug fixes
-2. Wait for a Coronita :beer: you deserve it.
 
 ## Further Reading / Useful Links
 
