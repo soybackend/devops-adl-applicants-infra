@@ -8,12 +8,11 @@ Dicha arquitectura es el requerimiento de un proyecto de ADL que siempre estará
 
 ## Reto 1 :suspect:
 
-Se requiere exponer contenido estático alojado en un bucket de S3 por medio de un Cloudfront. Los recursos declarados en el presente repositorio ya han sido aprovisionados correctamente. Sin embargo, el proyecto reporta que existe un error al momento de visualizar dichos archivos por medio de un navegador.
+* Como se muestra el el diagrama, se requiere exponer contenido estático alojado en un bucket de S3 por medio de un Cloudfront. Los recursos declarados en el presente repositorio ya han sido aprovisionados correctamente. Sin embargo, el proyecto reporta que existe un error al momento de visualizar dichos archivos por medio de un navegador.
 
-El objetivo es realizar lo debidamente necesario para que dichos archivos puedan ser visualizados. 👊
+      El objetivo es realizar lo debidamente necesario para que dichos archivos puedan ser visualizados mediante la distribución Cloudfront. 👊
 
 ![](./images/design1.png)
-
 
 ## Reto 2 :rage1:
 
@@ -26,4 +25,3 @@ El objetivo es realizar lo debidamente necesario para que dichos archivos puedan
 Se necesita crear un evento de Cloudwatch para que al cargar un objeto en el bucket S3 creado previamente se envié un correo a una lista de distribución de correo electrónico.
 
 ![](./images/design3.png)
-
