@@ -1,4 +1,4 @@
-# Infra Test :trollface: 🎉 🎉 🎉
+# Infra Test 🎉 🎉 🎉 :trollface:
 
 La prueba técnica se compone de los siguientes 3 ejecicios/retos en donde se empleará Terraform Cloud como el orquestador en el workflow de terraform para el aprovisionamiento de infraestructura con base en una arquitectura definida! 👌 
 
@@ -33,6 +33,7 @@ Dicha arquitectura es el requerimiento de un proyecto de ADL que siempre estará
 
 ## Importante !!!
 
-* Hacer uso de Gitmojis para los mensajes de commit! Ej: `":sparkles: Actualizar políticas de acceso a Bucket S3 "` https://gitmoji.avaldigitallabs.com/
+* Hacer uso de Gitmojis para los mensajes de commit! Ej: `":sparkles: Actualizar políticas de acceso a Bucket S3"` https://gitmoji.avaldigitallabs.com/
 * Ajustar el README cada vez que sea necesario!
+* [Tener a la mano tanto la documentación de AWS como de Terraform!](https://www.terraform.io/docs/providers/aws/index.html)
     
