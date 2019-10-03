@@ -8,7 +8,7 @@ Dicha arquitectura es el requerimiento de un proyecto de ADL que siempre estará
 
 ## Reto 1 :suspect:
 
-* Como se muestra el el diagrama, se requiere exponer contenido estático alojado en un bucket de S3 por medio de un Cloudfront. Los recursos declarados en el presente repositorio ya han sido aprovisionados correctamente. Sin embargo, el proyecto reporta que existe un error al momento de visualizar dichos archivos por medio de un navegador.
+* Como se ilustra en el diagrama, se requiere exponer contenido estático alojado en un bucket de S3 por medio de un Cloudfront. Los recursos declarados en el presente repositorio ya han sido aprovisionados correctamente. Sin embargo, el proyecto reporta que existe un error al momento de visualizar dichos archivos por medio de un navegador.
 
       Su objetivo es realizar lo debidamente necesario para que dichos archivos puedan ser visualizados mediante la distribución Cloudfront. 👊
 
