@@ -1,6 +1,6 @@
 # Infra Test 🎉 🎉 🎉 :trollface:
 
-La prueba técnica se compone de los siguientes 3 ejecicios/retos en donde se empleará Terraform Cloud como el orquestador en el workflow de terraform para el aprovisionamiento de infraestructura con base en una arquitectura definida! 👌 
+La prueba técnica se compone de los siguientes 3 ejercicios/retos en donde se empleará Terraform Cloud como el orquestador en el workflow de terraform para el aprovisionamiento de infraestructura con base en una arquitectura definida! 👌 
 
 Dicha arquitectura es el requerimiento de un proyecto de ADL que siempre estará en nuestro ❤️!
 
