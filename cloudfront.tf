@@ -70,7 +70,7 @@ resource "aws_cloudfront_distribution" "cloudfront_distribution" {
   }
 
   tags       = local.common_tags
-  web_acl_id = "${aws_waf_web_acl.waf.id}"
+  web_acl_id = aws_waf_web_acl.waf.id
   enabled    = true
 }
 
